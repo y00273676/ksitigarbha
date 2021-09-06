@@ -1,7 +1,8 @@
 package cmd_test
 
 import (
-	"go.planetmeican.com/nerds/bazaar/cmd"
+	"ksitigarbha/cmd"
+
 	"log"
 	"testing"
 )
