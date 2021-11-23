@@ -3,7 +3,6 @@ package xmap
 import (
 	"fmt"
 	"ksitigarbha/xcast"
-	"log"
 	"reflect"
 )
 
@@ -20,7 +19,6 @@ func MergeStringMap(dest, src map[string]interface{}) {
 		srcValType := reflect.TypeOf(srcVal)
 		targetValType := reflect.TypeOf(targetVal)
 		if srcValType != targetValType {
-			log.Printf("MergeStringMap type is different key = %s srcValType = %v  targetValType = %v", srcKey, srcValType, targetValType)
 			continue
 		}
 
