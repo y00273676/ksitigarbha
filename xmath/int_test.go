@@ -1,5 +1,3 @@
-//author: zhengchao.deng zhengchao.deng@meican.com
-//date: 2019/5/17
 package xmath_test
 
 import (
